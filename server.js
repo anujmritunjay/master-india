@@ -14,7 +14,7 @@ const DATABASE = process.env.DATABASE
 app.get('/', (req, res)=>{
     res.json({
         success: true,
-        message: "Hello from the server.-----"
+        message: "Hello from the server.--"
     })
 })
 app.use(express.json())
